@@ -28,10 +28,10 @@ namespace DotMetrics.TestChat
             if (ChatNodeV2.Context == null)
             {
                 ChatNodeV2.Context = new ZContext();
-                this._sendList = new List<ZFrame>();
-                this._receiveList = new List<ZFrame>();
-                this._output = new List<ZFrame>();
             }
+            this._sendList = new List<ZFrame>();
+            this._receiveList = new List<ZFrame>();
+            this._output = new List<ZFrame>();
         }
 
         private List<ZFrame> _receiveList;
